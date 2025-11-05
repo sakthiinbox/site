@@ -1,0 +1,32 @@
+/* 0-520px mobile view*/
+@media (max-width: 520px) {
+    .color {
+        color: red;
+    }
+    .col {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .color {
+        color: rgb(13, 255, 0);
+    }
+    .col{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .title{
+        display: none;
+    }
+}
+
+/* min = 521px
+max = 1023px */
+
+@media (min-width: 521px) and (max-width: 1024px) {
+    .color {
+        color: blue;
+    }
+}
